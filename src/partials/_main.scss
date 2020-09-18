@@ -6,11 +6,22 @@
     flex-wrap: wrap;
     align-items: center;
     .box{
-        margin: 50px auto;
+        margin: $spazio50 auto;
         width: 30%;
         background-color: $bgnero;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: $spazio20;
+        color: #fff;
         .poster img{
-            width: 150px;
+            width: 250px;
+        }
+        h3{
+            padding: $spazio10 0;
+        }
+        p{
+            color: lightgrey;
         }
     }
 }
