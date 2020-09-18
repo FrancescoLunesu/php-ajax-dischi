@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+}
+
+header {
+  background-color: #090909;
+}
+
+header .logo {
+  padding: 20px;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container .box {
+  margin: 50px auto;
+  width: 30%;
+  background-color: #090909;
+}
+
+.container .box .poster img {
+  width: 150px;
+}
+
